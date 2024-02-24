@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>About Me</title>
+            <link rel="stylesheet" href="main.css">
+            <style>
+            #myHeader {
+                background-color: rgb(156, 129, 182);
+                color: white;
+                padding: 30px;
+                text-align: center;
+                border-radius: 30px;
+            }
+            
+            .Nationality,
+            .Height {
+                
+                background-color: rgb(202, 41, 146);
+                color: white;
+                border: 2px solid black;
+                border-color: black;
+                margin: 1%;
+                padding: 5px;
+                border-radius: 20px;
+                max-width: 600px;
+                text-align: center;
+            }
+
+            
+            </style>
+
+        
+        
+        </head>
+        
+ 
+
+        <body>
+
+
+        <div>
+            <h1 id="myHeader"> About Me </h1>
+            
+        </div>
+        <div class="Nationality">
+                <h2>Nationality</h2>
+                <p>Nigerian</p>  
+        </div>
+
+         <div class="Height" ;>
+                <h2>Height</h2>
+                <p>5'5</p>  
+        </div>
+
+        <p1>Hi! My name is Osasere Obazogbon and I am Nigerian. 
+                I moved to Canada about 7 years ago and I have been enjoying my experience so far. I enjoy finding new activitie sand 
+                adventures to explore. Unsuprisingly, I <span style="color: rgb(114, 7, 100);"><em>absolutely </em> love </span> 
+                Nigerian food! I am currently studying at Humber College to be a computer programmer. I also love music. 
+                My favourite artist is a Nigerian artist named Wizkid and you can learn about him using <a href="https://en.wikipedia.org/wiki/Wizkid">this link</a>.
+                My favourite song by him is Frames and I have added it here for you to listen. I am open to making new
+            friends who are adventurous, love music, or have the same career goals as me. Lets be friends!
+        </p1>
+<br>
+<br>
+
+        <div class = container>
+            <figure style="font-size: 150;">
+                <img src="Nigerian food.jpg" alt="image of Nigerian meals">
+                <figcaption style="color: blueviolet;""><b>Nigerian Food</b></figcaption>
+                <img src="Ziplining.jpg" alt="image of two people Ziplining">
+                <figcaption style="color: blueviolet;""><b>Ziplining</b></figcaption>
+                <img src="Coding.jpeg" alt="Image of Coding on a laptop">
+                <figcaption style="color: blueviolet;""><b>Computer Programming</b></figcaption>
+            </figure>
+        </div>
+
+        <h4 style="font-size: 120%;"> WIZKID - Frames</h2>
+            <audio controls autoplay muted>
+                <source src="Wizkid-Frames.mp3" type="audio/mp3">  <!--I included autoplay here to improve the feel of the webpage-->
+            </audio>
+        
+            
+            
+                
+            
+            <h3>Lets Be Friends </h3>
+
+            <form>
+               <label for="id">First Name:</label> <br />
+               <input type="text " id="First Name"> <br />
+               <label for="id">Last Name:</label> <br />
+               <input type="text" id="Last Name"> <br />
+
+               <input type="radio" id="Male" value="Male" >
+               <label or="Male">Male</label>
+               <input type="radio" id="Female" value="Female">
+               <label for="Female">Female</label> <br />
+               <input type="checkbox" id="Activity buddy">
+               <label for="Activity">Activity buddy</label>
+               <input type="checkbox" id="Career buddy">
+               <label for="Career">Career Buddy</label>
+               <input type="checkbox" id="Music buddy">
+               <label for="Music">Music Buddy</label> <br> <br>
+
+               <input type="submit">
+            </form>
+
+            <form name="email form" action="subscribe.php" method="post">
+                <p>Enter your e-mail address! Lets get to know each other.</p>
+                <p>E-mail: <input type="text" name="email"> </p>
+                <p><input type="submit" value="Friends !!"></p>
+            </form>
+        </body>
+    </html>
